@@ -1,2 +1,72 @@
+$navbar_default_bg: rgb(0, 0, 0);
 @import "bootstrap-sprockets";
 @import "bootstrap";
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#logo:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+#topmenu {
+    color: rgb(255, 255, 255);
+}
+
+.jumbotron {
+    background-image: asset-url('Ruby-Universe.png');
+    background-size: cover;
+    height: 550px;
+}
+
+.jumbotron h1 {
+    font-size: 6em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top: 70px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 90px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.btn-xlarge {
+    font-size: 1.7em;
+    background-color: black;
+}
+
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+}
+
+footer a:hover {
+    color: #222;
+}
+
+footer small {
+    float: left;
+}
+
+footer ul {
+    float: right;
+    list-style: none;
+}
+
+footer ul li {
+    float: left;
+    margin-left: 15px;
+}
